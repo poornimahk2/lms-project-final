@@ -11,5 +11,5 @@ if that happens please kindly use the credentials when loging in:
 #### email - huna@gmail.com
 #### password - 0123456789
 
------------
-this is for viewing purposes
+*********
+Note: this is for viewing purposes, Heroku app link in the description
