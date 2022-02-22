@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnerInc</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.Zbqxq5hhYyLc3nP_lDL4agHaHa?pid=ImgDet&rs=1">
+
+
+</head>
+
+<body>
+
+    
+
+        <header>
+
+            <a href="/" class="logo">LeanerInc</a>
+
+            <div id="menu" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="/t"><button>Task Manager</button></a>
+                <a href="/logout">Log Out</a>
+            </nav>
+
+        </header>
+        <div class="container">
+        <h1 class="heading"> popular courses </h1>
+
+        <!-- course section  -->
+
+        <section class="course">
+
+            <div class="box">
+                <!-- <span class="amount">$59.99</span> -->
+                <!-- <img src="images/course-1.svg" alt=""> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GLSG_Wh_YWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3>Flutter Tutorial</h3>
+                <p>Flutter – a simple and high performance framework based on Dart language, provides high performance by rendering the UI directly in the operating system’s canvas rather than through native framework.
+
+                    Flutter also offers many ready to use widgets (UI) to create a modern application. </p>
+                <a href="#" class="btn btn-start" style="padding: 5px;">learn more</a>
+                <div class="icons">
+                    <p> <i class="far fa-clock"></i> 3 hours </p>
+                    <p> <i class="far fa-calendar"></i> 3 months </p>
+                    <p> <i class="fas fa-book"></i> 10 modules </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <!-- <span class="amount">$59.99</span>
+                <img src="images/course-2.svg" alt=""> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aHaOIvR00So?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3>Tableau</h3>
+                <p>Tableau is a powerful tool used for data analysis, visualization. It allows creating amazing and interactive visualization and that too without coding. Tableau is very famous as it can take in data and produce the required data visualization output in a very short time. It can elevate your data into insights that can be used to drive your action in the future.</p>
+                <a href="#" class="btn" style="padding: 5px;">learn more</a>
+                <div class="icons">
+                    <p> <i class="far fa-clock"></i> 6 hours </p>
+                    <p> <i class="far fa-calendar"></i> 3 months </p>
+                    <p> <i class="fas fa-book"></i> 20 modules </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ke90Tje7VS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3>React Development</h3>
+                <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.</p>
+                <a href="#" class="btn" style="padding: 5px;">learn more</a>
+                <div class="icons">
+                    <p> <i class="far fa-clock"></i> 2 hours </p>
+                    <p> <i class="far fa-calendar"></i> 3 months </p>
+                    <p> <i class="fas fa-book"></i> 10 modules </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h0gWfVCSGQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3>IoT Development</h3>
+                <p>nternet of Things (IoT) is a network of physical objects or people called “things” that are embedded with software, electronics, network, and sensors that allows these objects to collect and exchange data.</p>
+                <a href="#" class="btn btn-start" style="padding: 5px;">learn more</a>
+                <div class="icons">
+                    <p> <i class="far fa-clock"></i> 3 hours </p>
+                    <p> <i class="far fa-calendar"></i> 6 months </p>
+                    <p> <i class="fas fa-book"></i> 12 modules </p>
+                </div>
+            </div>
+            
+        </section> 
+
+    </div>
+
+    <%- include('partials/footer'); -%>
