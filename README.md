@@ -2,7 +2,7 @@
 A Graduation Project for stige platform. 
 Usage of node.js express mongodb and npm modules help on building this website
 
-## Very Important 
+## Very Important!
 
 A small issue with the database certain times signup doesnt work
 
