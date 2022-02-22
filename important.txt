@@ -6,4 +6,4 @@ email - huna@gmail.com
 password - 0123456789
 
 -----*****-----*****------
-This is for testing purposes.
+This is for viewing purposes.
