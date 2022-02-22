@@ -4,3 +4,6 @@ if that happens please kindly use the credentionals when loging in:
 
 email - huna@gmail.com
 password - 0123456789
+
+-----*****-----*****------
+This is for testing purposes.
